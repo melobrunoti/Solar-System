@@ -1,0 +1,48 @@
+body {
+  color: white;
+  background-image: url("/src/space.jpg");
+  background-size: cover;
+  font-family: 'Zen Antique Soft', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.planets-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.planets {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+
+}
+
+.missions {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: solid 2px white;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.459);
+}
